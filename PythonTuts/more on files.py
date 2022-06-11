@@ -1,0 +1,11 @@
+f = open("harry.txt")
+print(f.readline())
+# f.seek(0)
+print(f.tell())
+print(f.readline())
+f.seek(5)
+print(f.tell())
+print(f.readline())
+
+# print(f.read())
+f.close()
